@@ -1,0 +1,108 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,400i,700,700i');
+
+body {
+  color: #161a21;
+  font-family: "Roboto", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+footer {
+  background-color: #e4e9f2;
+  color: #636c7e;
+
+  p {
+    margin-bottom: 0;
+    padding-bottom: 24px;
+  }
+}
+
+a {
+  color: #408bec;
+}
+
+.main-content {
+
+  h2,
+  h3 {
+    color: #161a21;
+    font-weight: bold;
+  }
+}
+
+.page-header {
+  background: #fff;
+}
+
+.project-name,
+.project-tagline {
+  color: #161a21;
+  margin: 0 auto;
+
+
+  @media only screen and (min-width: 1200px) {
+    max-width: 50%;
+  }
+}
+
+.project-tagline {
+  margin-bottom: 0;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.contact {
+  font-size: 12px;
+}
+
+.project-tagline {
+  font-size: 24px;
+  line-height: 36px;
+  margin-bottom: 2rem;
+}
+
+.button {
+  color: #fff;
+  padding: 6px 12px;
+  border-radius: 8px;
+  background-color: #00a8e1;
+  border: none;
+  margin: 16px 0 0 0;
+}
+
+.card {
+  background: rgba(66, 142, 238, 0.02);
+  border: 1px solid #e8f1fd;
+  border-radius: 20px;
+  margin: 24px 0;
+  padding: 24px;
+}
+
+.board,
+.committee {
+
+  ul {
+    list-style-type: none;
+    padding-left: 0;
+    text-align: center;
+  }
+
+  li {
+    display: inline-block;
+    margin: 24px;
+  }
+
+  img {
+    max-width: 200px;
+  }
+}
+
+.info {
+  font-size: 14px;
+  font-style: italic;
+}

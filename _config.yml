@@ -2,4 +2,4 @@ theme: jekyll-theme-cayman
 title: CONSUL DEMOCRACY Foundation
 description: Our mission is to improve direct democracy and citizen participation worldwide by using CONSUL DEMOCRACY, the largest open source digital democracy platform.
 github:
-  repository_url: https://github.com/consul/consul
+  repository_url: https://github.com/consuldemocracy/consuldemocracy
